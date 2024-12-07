@@ -1,0 +1,35 @@
+name: Filter IPV4_TXT Addresses
+
+on:
+  schedule:
+    - cron: '20 22 * * *'  # 每天午夜运行
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  filter-and-push:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run filtering script
+      run: python script_txt-v4.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add ipv4.txt
+        git diff --quiet && git diff --staged --quiet || (git commit -m ":tada:  AutoUpdate $(date +'%Y%m%d')" && git push)
