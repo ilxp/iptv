@@ -6,11 +6,9 @@ import requests
 # --------替换以下变量的值----
 GITHUB_REPO_OWNER = "ilxp"
 GITHUB_REPO_NAME = "YKTV"
-GITHUB_PRIVATE_TOKEN = "workflow_token"
 url = f"https://api.github.com/repos/{GITHUB_REPO_OWNER}/{GITHUB_REPO_NAME}/main/live.m3u"
- 
 headers = {
-    "Authorization": f"token {GITHUB_PRIVATE_TOKEN}",
+    "Authorization": f"token {workflow_token}",
     "Accept": "application/vnd.github.v3+json"
 }
  
