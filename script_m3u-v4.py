@@ -30,7 +30,7 @@ url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
     #file_content = base64.b64decode(content['content']).decode('utf-8')   
     # 保存文件到指定路径
     #with open(save_path, 'w', encoding='utf-8') as f:
-        f.write(file_content)   
+        #f.write(file_content)   
     #print(f"文件已保存到 {save_path}")
 #else:
     #print(f"错误: {response.status_code} - {response.json().get('message')}")
