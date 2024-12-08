@@ -2,6 +2,9 @@
 ##url = 'https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u'  # 替换为你想下载的文件的URL
 #url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
 #local_filename = 'ipv4.m3u'  # 指定保存到本地的文件名
+#with requests.get(url, stream=True) as r:
+    #with open(local_filename, 'wb') as f:
+        #f.write(r.content)
 
 # --------替换以下变量的值----
 import requests
@@ -12,6 +15,7 @@ username = 'ilxp'
 token = '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'
 repo = 'YKTV'
 file_path = 'live.m3u?ref=main'
+save_path = 'ipv4.m3u'  # 保存的本地文件路径
 
 # GitHub API URL
 url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
@@ -24,16 +28,16 @@ if response.status_code == 200:
     content = response.json()
     # GitHub API 返回的内容是 Base64 编码的
     file_content = base64.b64decode(content['content']).decode('utf-8')
-    print(file_content)
+    
+    # 保存文件到指定路径
+    with open(save_path, 'w', encoding='utf-8') as f:
+        f.write(file_content)   
+    print(f"文件已保存到 {save_path}")
 else:
-    print(f"Error: {response.status_code} - {response.json().get('message')}")
- 
-local_filename = 'ipv4.m3u'  # 指定保存到本地的文件名
+    print(f"错误: {response.status_code} - {response.json().get('message')}")
 # -------------------------------------------------
  
-with requests.get(url, stream=True) as r:
-    with open(local_filename, 'wb') as f:
-        f.write(r.content)
+
  
  
 def remove_lines_with_aaa(file_path):
