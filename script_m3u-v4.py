@@ -19,7 +19,8 @@ file_path = 'main/live.m3u'
 save_path = 'ipv4.m3u'  # 保存的本地文件路径
 # GitHub API URL
 #url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
-url = 'https://api.github.com/repos/ilxp/YKTV/contents/live.m3u?ref=main'
+#url = 'https://api.github.com/repos/ilxp/YKTV/contents/live.m3u?ref=main'
+url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
 # 发送请求
 response = requests.get(url, auth=(username, token))
 # 检查响应状态
