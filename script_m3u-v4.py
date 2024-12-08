@@ -22,18 +22,23 @@ save_path = 'ipv4.m3u'  # 保存的本地文件路径
 #url = 'https://api.github.com/repos/ilxp/YKTV/contents/live.m3u?ref=main'
 url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
 # 发送请求
-response = requests.get(url, auth=(username, token))
+#response = requests.get(url, auth=(username, token))
 # 检查响应状态
-if response.status_code == 200:
-    content = response.json()
+#if response.status_code == 200:
+    #content = response.json()
     # GitHub API 返回的内容是 Base64 编码的
-    file_content = base64.b64decode(content['content']).decode('utf-8')   
+    #file_content = base64.b64decode(content['content']).decode('utf-8')   
     # 保存文件到指定路径
-    with open(save_path, 'w', encoding='utf-8') as f:
+    #with open(save_path, 'w', encoding='utf-8') as f:
         f.write(file_content)   
-    print(f"文件已保存到 {save_path}")
-else:
-    print(f"错误: {response.status_code} - {response.json().get('message')}")
+    #print(f"文件已保存到 {save_path}")
+#else:
+    #print(f"错误: {response.status_code} - {response.json().get('message')}")
+
+with requests.get(url, auth=(username, token), stream=True) as r:
+    with open(save_path, 'wb') as f:
+        f.write(r.content)
+
 # -------------------------------------------------
 
 
