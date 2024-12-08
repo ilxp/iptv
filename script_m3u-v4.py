@@ -11,8 +11,8 @@ import requests
 import base64
 # 设置
 username = 'ilxp'
-#token = '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'
-token = '${{ secrets.workflow_token }}'
+token = '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'
+#token = '${{ secrets.workflow_token }}'
 repo = 'YKTV'
 file_path = 'live.m3u?ref=main'
 save_path = 'ipv4.m3u'  # 保存的本地文件路径
