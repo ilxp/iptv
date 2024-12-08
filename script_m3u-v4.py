@@ -8,7 +8,7 @@ GITHUB_REPO_OWNER = "ilxp"
 GITHUB_REPO_NAME = "YKTV"
 url = f"https://api.github.com/repos/{GITHUB_REPO_OWNER}/{GITHUB_REPO_NAME}/main/live.m3u"
 headers = {
-    "Authorization": f"token {workflow_token}",
+    "Authorization": f"token { workflow_token }",
     "Accept": "application/vnd.github.v3+json"
 }
  
