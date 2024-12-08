@@ -9,26 +9,22 @@
 # --------替换以下变量的值----
 import requests
 import base64
-
 # 设置
 username = 'ilxp'
 token = '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'
 repo = 'YKTV'
-file_path = 'live.m3u?ref=main'
+#file_path = 'live.m3u?ref=main'
+file_path = 'main/live.m3u'
 save_path = 'ipv4.m3u'  # 保存的本地文件路径
-
 # GitHub API URL
 url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
-
 # 发送请求
 response = requests.get(url, auth=(username, token))
-
 # 检查响应状态
 if response.status_code == 200:
     content = response.json()
     # GitHub API 返回的内容是 Base64 编码的
-    file_content = base64.b64decode(content['content']).decode('utf-8')
-    
+    file_content = base64.b64decode(content['content']).decode('utf-8')   
     # 保存文件到指定路径
     with open(save_path, 'w', encoding='utf-8') as f:
         f.write(file_content)   
@@ -36,10 +32,8 @@ if response.status_code == 200:
 else:
     print(f"错误: {response.status_code} - {response.json().get('message')}")
 # -------------------------------------------------
- 
 
- 
- 
+
 def remove_lines_with_aaa(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
