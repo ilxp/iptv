@@ -11,10 +11,10 @@ import requests
 import base64
 # 设置
 username = 'ilxp'
-token = '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'
+#token = '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'
+token = '${{ secrets.workflow_token }}'
 repo = 'YKTV'
-#file_path = 'live.m3u?ref=main'
-file_path = 'main/live.m3u'
+file_path = 'live.m3u?ref=main'
 save_path = 'ipv4.m3u'  # 保存的本地文件路径
 # GitHub API URL
 url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
