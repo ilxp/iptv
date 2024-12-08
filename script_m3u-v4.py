@@ -1,7 +1,28 @@
 import requests
 #url = 'https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u'  # 替换为你想下载的文件的URL
-url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
+#url = 'https://raw.githubusercontent.com/ilxp/YKTV/main/live.m3u'
+#local_filename = 'ipv4.m3u'  # 指定保存到本地的文件名
+
+# --------替换以下变量的值----
+GITHUB_REPO_OWNER = "ilxp"
+GITHUB_REPO_NAME = "YKTV"
+GITHUB_PRIVATE_TOKEN = "workflow_token"
+url = f"https://api.github.com/repos/{GITHUB_REPO_OWNER}/{GITHUB_REPO_NAME}/main/live.m3u"
+ 
+headers = {
+    "Authorization": f"token {GITHUB_PRIVATE_TOKEN}",
+    "Accept": "application/vnd.github.v3+json"
+}
+ 
+response = requests.get(url, headers=headers)
+if response.status_code == 200:
+    file_content = response.json()
+    print(file_content)
+else:
+    print("Failed to retrieve file content")
+ 
 local_filename = 'ipv4.m3u'  # 指定保存到本地的文件名
+# -------------------------------------------------
  
 with requests.get(url, stream=True) as r:
     with open(local_filename, 'wb') as f:
