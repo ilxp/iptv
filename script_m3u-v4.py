@@ -7,31 +7,58 @@
         #f.write(r.content)
 
 # --------替换以下变量的值----
-import requests
-import base64
-# 设置
-username = 'ilxp'
-repo = 'YKTV'
-#token = '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'
-token = '${{ secrets.PRIVATE_REPO }}'
-file_path = 'live.m3u?ref=main'
-save_path = 'ipv4.m3u'  # 保存的本地文件路径
-# GitHub API URL
-url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
 
-# 发送请求
-response = requests.get(url, auth=(username, token))
-# 检查响应状态
+#token = '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'
+#token = '${{ secrets.PRIVATE_REPO }}
+
+import requests
+import os
+
+# GitHub 个人访问令牌
+token = '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'
+# GitHub 仓库信息
+owner = 'ilxp'
+repo = 'YKTV'
+branch = 'main'
+file_path = 'live.m3u'
+
+# 目标保存路径
+save_to_path = 'ipv4.m3u'
+
+# 创建 GitHub 文件 URL
+url = f'https://api.github.com/repos/{owner}/{repo}/contents/{file_path}?ref={branch}'
+
+# 设置请求头
+headers = {
+    'Authorization': f'token {token}',
+    'Accept': 'application/vnd.github.v3+json'
+}
+
+# 发送 GET 请求获取文件内容
+response = requests.get(url, headers=headers)
+
+# 检查请求是否成功
 if response.status_code == 200:
-    content = response.json()
-    # GitHub API 返回的内容是 Base64 编码的
-    file_content = base64.b64decode(content['content']).decode('utf-8')   
-    # 保存文件到指定路径
-    with open(save_path, 'w', encoding='utf-8') as f:
-        f.write(file_content)   
-    print(f"文件已保存到 {save_path}")
+    file_content = response.json()
+    
+    # 获取文件内容的 Base64 编码
+    content = file_content['content']
+    
+    # 将 Base64 编码内容解码
+    decoded_content = base64.b64decode(content).decode('utf-8')
+    
+    # 创建目标文件路径的目录
+    os.makedirs(os.path.dirname(save_to_path), exist_ok=True)
+    
+    # 将内容写入本地文件
+    with open(save_to_path, 'w') as file:
+        file.write(decoded_content)
+    
+    print(f'File saved to {save_to_path}')
 else:
-    print(f"错误: {response.status_code} - {response.json().get('message')}")
+    print(f'Failed to retrieve file: {response.status_code}')
+    print(response.json())
+
 # -------------------------------------------------
 
 
