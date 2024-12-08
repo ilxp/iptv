@@ -10,11 +10,11 @@ import base64
 # 设置
 username = 'ilxp'
 token = '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'
-repo = 'username/YKTV'
-file_path = 'main/live.m3u'
+repo = 'YKTV'
+file_path = 'live.m3u?ref=main'
 
 # GitHub API URL
-url = f'https://api.github.com/repos/{repo}/contents/{file_path}'
+url = f'https://api.github.com/repos/{username}/{repo}/contents/{file_path}'
 
 # 发送请求
 response = requests.get(url, auth=(username, token))
