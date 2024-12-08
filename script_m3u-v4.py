@@ -9,7 +9,7 @@ import base64
 
 # 设置
 username = 'ilxp'
-token = '${{ secrets.workflow_token }}'
+token = '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'
 repo = 'username/YKTV'
 file_path = 'main/live.m3u'
 
