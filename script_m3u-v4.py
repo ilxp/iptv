@@ -11,7 +11,7 @@ import requests
 import base64
 # 设置
 username = 'ilxp'
-token = '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'
+token = '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'
 #token = '${{ secrets.workflow_token }}'
 repo = 'YKTV'
 file_path = 'live.m3u?ref=main'
