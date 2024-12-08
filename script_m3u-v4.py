@@ -12,8 +12,8 @@ import base64
 # 设置
 username = 'ilxp'
 repo = 'YKTV'
-token = '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'
-#token = '${{ secrets.PRIVATE_REPO }}'
+#token = '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'
+token = '${{ secrets.PRIVATE_REPO }}'
 file_path = 'live.m3u?ref=main'
 save_path = 'ipv4.m3u'  # 保存的本地文件路径
 # GitHub API URL
