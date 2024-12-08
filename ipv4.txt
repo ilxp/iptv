@@ -17002,7 +17002,7 @@ iHOTv6专区,#genre#
 黄花城水长城03,https://gcalic.v.myalicdn.com/gc/wgw03_1/index.m3u8$LR•IPV4
 黄龙,https://gcalic.v.myalicdn.com/gc/hlzycc_1/index.m3u8$LR•IPV4
 
-港·澳·台,#genre#,_999
+港·澳·台,_999,#genre#
 Live Cams,http://cdn.adultiptv.net/livecams.m3u8
 MILF,http://cdn.adultiptv.net/milf.m3u8
 Big Dick,http://cdn.adultiptv.net/bigdick.m3u8
