@@ -1,4 +1,4 @@
-央视台浙联,#genre#
+央视浙联,#genre#
 CCTV1,http://124.90.44.40:6060/010/2/00000001000000060000000000000469?virtualDomain=010.live_hls.zte.com
 CCTV2,http://124.90.44.40:6060/010/2/00000001000000060000000000000471?virtualDomain=010.live_hls.zte.com
 CCTV3,http://124.90.44.40:6060/010/2/00000001000000060000000000000642?virtualDomain=010.live_hls.zte.com
@@ -23,7 +23,7 @@ CGTN法语,http://124.90.44.40:6060/010/2/00000001000000060000000000000801?virtu
 CGTN阿语,http://124.90.44.40:6060/010/2/00000001000000060000000000000802?virtualDomain=010.live_hls.zte.com
 CGTN俄语,http://124.90.44.40:6060/010/2/00000001000000060000000000000803?virtualDomain=010.live_hls.zte.com
 
-卫视台浙联,#genre#
+卫视浙联,#genre#
 湖南卫视,http://124.90.44.40:6060/010/2/00000001000000060000000000000394?virtualDomain=010.live_hls.zte.com
 浙江卫视,http://124.90.44.40:6060/010/2/00000001000000060000000000000392?virtualDomain=010.live_hls.zte.com
 东方卫视,http://124.90.44.40:6060/010/2/00000001000000060000000000000478?virtualDomain=010.live_hls.zte.com
@@ -58,12 +58,12 @@ CGTN俄语,http://124.90.44.40:6060/010/2/00000001000000060000000000000803?virtu
 吉林卫视,http://124.90.44.40:6060/010/2/20002000000000010000000002776032?virtualDomain=010.live_hls.zte.com
 兵团卫视,http://124.90.44.40:6060/010/2/01000010000000060000000000002831?virtualDomain=010.live_hls.zte.com
 
-儿童台浙联,#genre#
+儿童浙联,#genre#
 金鹰卡通,http://124.90.44.40:6060/010/2/01000010000000060000000000002830?virtualDomain=010.live_hls.zte.com
 金鹰卡通,http://124.90.44.40:6060/010/2/00000001000000060000000000000430?virtualDomain=010.live_hls.zte.com
 哈哈炫动,http://124.90.44.40:6060/010/2/00000001000000060000000000000431?virtualDomain=010.live_hls.zte.com
 
-省内台浙联,#genre#
+省内浙联,#genre#
 钱江频道高清,http://124.90.44.40:6060/010/2/00000001000000060000000000000571?virtualDomain=010.live_hls.zte.com
 浙江经视高清,http://124.90.44.40:6060/010/2/00000001000000060000000000000572?virtualDomain=010.live_hls.zte.com
 教科影视高清,http://124.90.44.40:6060/010/2/00000001000000060000000000000576?virtualDomain=010.live_hls.zte.com
@@ -92,7 +92,7 @@ CGTN俄语,http://124.90.44.40:6060/010/2/00000001000000060000000000000803?virtu
 CETV1,http://124.90.44.40:6060/010/2/00000001000000060000000000000432?virtualDomain=010.live_hls.zte.com
 CETV4,http://124.90.44.40:6060/010/2/00000001000000060000000000000632?virtualDomain=010.live_hls.zte.com
 
-央视台甘联,#genre#
+央视甘联,#genre#
 CCTV-1高清,rtsp://60.13.39.18/PLTV/88888910/224/3221225567/10000100000000060000000000107347_0.smil
 CCTV-1高清,rtsp://180.95.143.19/PLTV/88888910/224/3221225567/10000100000000060000000000107347_0.smil
 CCTV-2高清,rtsp://60.13.39.18/PLTV/88888910/224/3221225568/10000100000000060000000000107348_0.smil
@@ -130,7 +130,7 @@ CCTV-16高清,rtsp://180.95.143.19/PLTV/88888910/224/3221225605/1000010000000006
 CCTV-17高清,rtsp://60.13.39.18/PLTV/88888910/224/3221225612/10000100000000060000000000804195_0.smil
 CCTV-17高清,rtsp://180.95.143.19/PLTV/88888910/224/3221225612/10000100000000060000000000804195_0.smil
 
-卫视台甘联,#genre#
+卫视甘联,#genre#
 东方卫视标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225533/10000100000000060000000000107313_0.smil
 江苏卫视标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225534/10000100000000060000000000107314_0.smil
 浙江卫视标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225535/10000100000000060000000000107315_0.smil
@@ -166,7 +166,7 @@ CCTV-17高清,rtsp://180.95.143.19/PLTV/88888910/224/3221225612/1000010000000006
 卡酷少儿标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225565/10000100000000060000000000107345_0.smil
 纪实人文HD,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225523/10000100000000060000000000107303_0.smil
 
-数字台甘联,#genre#
+数字甘联,#genre#
 热播剧场标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225522/10000100000000060000000000107302_0.smil
 IPTV谍战剧场标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225520/10000100000000060000000000107300_0.smil
 IPTV野外标清,rtsp://60.13.39.18:554/PLTV/88888910/224/3221225519/10000100000000060000000000107299_0.smil
@@ -265,3 +265,57 @@ CGTN,http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3
 中国教育1台,http://[2409:8087:1:20:20::2a]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EB8MrpAzJ_Bw12HHVBcZO6g%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNONWWecbSKZXNjh_5hExtTC%2CEND
 中国教育2台[785*576],http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7AxXs4eTU2oiWrhopr9sHw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNxsM0Bor098BJglrhfEQTl%2CEND
 中国教育4台[785*576],http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226557/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBzZToIaOOoaa_jAUfhUQHQ%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOD9BEmVSNbqSQpqXZxnxbk%2CEND
+
+央视安电,#genre#
+CCTV1-综合,http://60.172.130.146:352/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV2-财经,http://60.172.130.146:352/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV3-综艺,http://60.172.130.146:352/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4-国际,http://60.172.130.146:352/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5-体育,http://60.172.130.146:352/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV6-电影,http://60.172.130.146:352/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV7-军农,http://60.172.130.146:352/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8-电视剧,http://60.172.130.146:352/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV9-纪录,http://60.172.130.146:352/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV10-科教,http://60.172.130.146:352/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV11-戏曲,http://60.172.130.146:352/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV12-社会与法,http://60.172.130.146:352/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV13-新闻,http://60.172.130.146:352/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV14-少儿,http://60.172.130.146:352/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV15-音乐,http://60.172.130.146:352/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+
+卫视安电,#genre#
+安徽卫视,http://60.172.130.146:352/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+湖南卫视,http://60.172.130.146:352/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
+江苏卫视,http://60.172.130.146:352/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+东南卫视,http://60.172.130.146:352/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
+广东卫视,http://60.172.130.146:352/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+北京卫视,http://60.172.130.146:352/tsfile/live/0122_2.m3u8?key=txiptv&playlive=1&authid=0
+江西卫视,http://60.172.130.146:352/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+河北卫视,http://60.172.130.146:352/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+陕西卫视,http://60.172.130.146:352/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+浙江卫视,http://60.172.130.146:352/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北卫视,http://60.172.130.146:352/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳卫视,http://60.172.130.146:352/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+山东卫视,http://60.172.130.146:352/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
+四川卫视,http://60.172.130.146:352/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+重庆卫视,http://60.172.130.146:352/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+云南卫视,http://60.172.130.146:352/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
+贵州卫视,http://60.172.130.146:352/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+黑龙江卫视,http://60.172.130.146:352/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视,http://60.172.130.146:352/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林卫视,http://60.172.130.146:352/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
+海南卫视,http://60.172.130.146:352/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
+内蒙古卫视,http://60.172.130.146:352/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
+兵团卫视,http://60.172.130.146:352/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+宁夏卫视,http://60.172.130.146:352/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽经视,http://60.172.130.146:352/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽影视,http://60.172.130.146:352/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽公共,http://60.172.130.146:352/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽综艺,http://60.172.130.146:352/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+合肥新闻,http://60.172.130.146:352/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+都市剧场,http://60.172.130.146:352/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+经典电影,http://60.172.130.146:352/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+金鹰卡通,http://60.172.130.146:352/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+卡酷卡通,http://60.172.130.146:352/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+全纪实,http://60.172.130.146:352/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+家庭影院,http://60.172.130.146:352/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
