@@ -1,4 +1,4 @@
-央视台,#genre#,
+央视,#genre#,
 CCTV1,http://119.123.178.255:8086/hls/2/index.m3u8
 CCTV2,http://119.123.178.255:8086/hls/3/index.m3u8
 CCTV3,http://119.123.178.255:8086/hls/4/index.m3u8
@@ -58,8 +58,7 @@ CGTN记录,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/
 CCTV风云剧场,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://yangshipin.cn/tv/home?pid=600099658
 CCTV第一剧场,https://A/ku9/js/ku9js.js?id=https://yangshipin.cn/tv/home?pid=600099655
 CCTV怀旧剧场,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://yangshipin.cn/tv/home?pid=600099620
-
-卫视台,#genre#,
+卫视,#genre#,
 天津卫视,http://119.123.178.225:8086/hls/140/index.m3u8
 北京卫视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://yangshipin.cn/tv/home?pid=600002309
 江苏卫视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://yangshipin.cn/tv/home?pid=600002521
@@ -151,6 +150,6 @@ CCTV怀旧剧场,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/
 宁夏共公,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://www.nxtv.com.cn/live/gg/
 成都影视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/web.js?id=https://cando.cditv.cn/show-192-45-1.html
 陕西卫视,http://stream.snrtv.com/sxbc-star-clmrI6.m3u8
-广西卫视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=https://tv.gxtv.cn/channel/channelivePlay_e7a7ab7df9fe11e88bcfe41f13b60c62.html
+广西卫视,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.jsid=https://tv.gxtv.cn/channel/channelivePlay_e7a7ab7df9fe11e88bcfe41f13b60c62.html
 青岛1,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=http://www.qtv.com.cn/live/tv/index.shtml
 青岛3,https://d.kstore.dev/k-web/ku9/js/download/10694/tv/%E9%85%B79/ku9js/ku9js.js?id=http://www.qtv.com.cn/live/tv/tv_qtv3.shtml
