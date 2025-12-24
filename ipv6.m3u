@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml","http://epg.51zmt.top:8000/e.xml","http://epg.aptvapp.com/xml","https://epg.pw/xmltv/epg_CN.xml","https://epg.pw/xmltv/epg_HK.xml","https://epg.pw/xmltv/epg_TW.xml"
 #EXTINF:-1 tvg-id="1" tvg-name="更新日期" tvg-logo="http://175.178.251.183:6689/LR.jpg" group-title="公告",更新日期
 https://gitlab.com/lr77/IPTV/-/raw/main/%E4%B8%BB%E8%A7%92.mp4
-#EXTINF:-1 tvg-id="1" tvg-name="2025-12-24" tvg-logo="http://175.178.251.183:6689/LR.jpg" group-title="公告",2025-12-24
+#EXTINF:-1 tvg-id="1" tvg-name="2025-12-25" tvg-logo="http://175.178.251.183:6689/LR.jpg" group-title="公告",2025-12-25
 https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV1.png" group-title="央视频道",CCTV1
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8$LR•IPV6『线路1』
@@ -90,8 +90,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 tvg-id="19" tvg-name="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV2.png" group-title="央视频道",CCTV2
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226457/1.m3u8$LR•IPV6『线路19』
 #EXTINF:-1 tvg-id="20" tvg-name="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV2.png" group-title="央视频道",CCTV2
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226472/1.m3u8$LR•IPV6『线路20』
-#EXTINF:-1 tvg-id="21" tvg-name="CCTV2" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV2.png" group-title="央视频道",CCTV2
 http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV3" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV3.png" group-title="央视频道",CCTV3
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226021/index.m3u8?$LR•IPV6『线路2』
@@ -392,8 +390,6 @@ http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000373/ind
 #EXTINF:-1 tvg-id="20" tvg-name="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV9.png" group-title="央视频道",CCTV9
 http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225734/index.m3u8$LR•IPV6『线路20』
 #EXTINF:-1 tvg-id="21" tvg-name="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV9.png" group-title="央视频道",CCTV9
-http://[2409:8087:1a01:df::4077]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225734/index.m3u8$LR•IPV6『线路21』
-#EXTINF:-1 tvg-id="22" tvg-name="CCTV9" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV9.png" group-title="央视频道",CCTV9
 http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV10" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/CCTV10.png" group-title="央视频道",CCTV10
 http://[2409:8087:5e01:34::38]:6610/ZTE_CMS/00000001000000060000000000000375/index.m3u8?$LR•IPV6『线路2』
@@ -1854,8 +1850,6 @@ http://[2409:8087:7001:20:2::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3
 #EXTINF:-1 tvg-id="4" tvg-name="西藏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/西藏卫视.png" group-title="卫视频道",西藏卫视
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001072/index.m3u8$LR•IPV6『线路4』
 #EXTINF:-1 tvg-id="5" tvg-name="西藏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/西藏卫视.png" group-title="卫视频道",西藏卫视
-http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226847/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178$LR•IPV6『线路5』
-#EXTINF:-1 tvg-id="6" tvg-name="西藏卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/西藏卫视.png" group-title="卫视频道",西藏卫视
 http://[2409:8087:1a0b:df::4020]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226439/index.m3u8$LR•IPV6『线路1』
 #EXTINF:-1 tvg-id="2" tvg-name="兵团卫视" tvg-logo="https://gcore.jsdelivr.net/gh/yuanzl77/TVlogo@master/png/兵团卫视.png" group-title="卫视频道",兵团卫视
 http://[2409:8087:1a0b:df::4007]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225659/index.m3u8$LR•IPV6『线路1』
